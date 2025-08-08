@@ -1,0 +1,15 @@
+1. Semantic HTML
+While you can build an entire website with tags like <div> and <span>, it's not a good practice. Semantic HTML uses tags that clearly describe their purpose, which helps with accessibility and SEO. These tags make your code more readable for other developers and more understandable for search engines and screen readers.
+
+<header>: This tag is for the introductory content of a section or page. It often contains a navigation menu and the logo.
+
+<nav>: This is used for a set of navigation links.
+
+<main>: This tag contains the primary content of the document. A page should only have one <main> tag.
+
+<section>: This groups together related content, typically with a heading.
+
+<article>: This represeontent, like a blog post or news story, that can be distributed independently.nts a self-contained piece of c
+
+<footer>: This contains information about the page, such as copyright, author information, or contact details.
+

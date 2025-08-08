@@ -1,0 +1,12 @@
+1.html attribute
+
+2. HTML Forms
+Forms are a crucial part of the web, allowing users to input data. You'll use them for contact pages, login forms, search bars, and more. A form is made up of a <form> tag and various input elements.
+
+<form>: The container for all form elements. The action attribute specifies where to send the data when the form is submitted.
+
+<label>: A label for an input field. It's a best practice to use the for attribute to link a label to its corresponding input's id. This is great for accessibility, as users can click the label to focus the input.
+
+<input>: The most common form element. The type attribute defines what kind of input it is. Examples include text, email, password, radio, and checkbox.
+
+<button>: A clickable button, often used to submit the form.

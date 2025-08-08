@@ -1,0 +1,85 @@
+1. What is HTML?
+HTML stands for HyperText Markup Language. It's not a programming language but a "markup" language, meaning it uses tags to define the elements and content of a web page. Your web browser reads this code and renders it into the visual page you see.
+
+2. Your First HTML Document
+Every HTML file starts with a basic structure. Open a text editor (like Visual Studio Code, Sublime Text, or even Notepad) and type this code:
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is my very first webpage.</p>
+</body>
+</html>
+Save this file as index.html. Then, open it in your web browser. You should see a large "Hello, World!" heading and a paragraph below it.
+
+Let's break down this code:
+
+<!DOCTYPE html>: This declaration tells the browser that this is an HTML5 document.
+
+<html lang="en">: This is the root element that wraps all the content on the page. The lang="en" attribute specifies that the page's language is English, which is good for accessibility.
+
+<head>: This section contains metadata about the page, which isn't visible on the page itself.
+
+<meta charset="UTF-8">: Specifies the character encoding for the document.
+
+<title>My First Webpage</title>: The text here appears in the browser tab.
+
+<body>: This is where all the visible content of your webpage goes. Everything you see on the screen—text, images, links—is placed inside the <body>.
+
+<h1>: A heading tag. h1 is the most important heading. HTML has headings from h1 to h6.
+
+<p>: A paragraph tag for regular text.
+
+3. Common HTML Tags to Know
+Here are some other essential tags you'll use frequently:
+
+<a> (Anchor): Creates a hyperlink to another page or a different part of the same page.
+
+HTML
+
+<a href="https://www.google.com">Go to Google</a>
+The href attribute specifies the destination URL.
+
+<img> (Image): Embeds an image.
+
+HTML
+
+<img src="path/to/your/image.jpg" alt="A descriptive text for the image">
+The src attribute points to the image file, and the alt attribute provides a description for screen readers and in case the image fails to load.
+
+<ul> and <ol> (Unordered and Ordered Lists):
+
+HTML
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+</ul>
+
+<ol>
+  <li>First step</li>
+  <li>Second step</li>
+</ol>
+<li> tags are used for each list item.
+
+4. Your Task for Today
+For your day one task, build a simple HTML page:
+
+Create a new HTML file named about.html.
+
+Inside the <body>, add a main heading with your name (<h1>).
+
+Write a few paragraphs about yourself using the <p> tag.
+
+Add an image of something you like. If you don't have an image, you can find a placeholder online.
+
+Create an unordered list (<ul>) of your hobbies.
+
+Add a link at the bottom of the page that says "Learn more about me" and links to your about.html file (using <a href="about.html">).

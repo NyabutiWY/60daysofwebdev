@@ -1,0 +1,92 @@
+1. Images in HTML
+The main tag for images is:
+
+html
+Copy
+Edit
+<img src="path-to-image" alt="description" width="300" height="200">
+Attributes you should know:
+
+src – The location of the image (local file or URL).
+
+alt – A short description for accessibility and SEO.
+
+width & height – Size of the image (in pixels or percentage).
+
+loading="lazy" – Delays image loading until needed (speeds up page).
+
+Example:
+
+html
+Copy
+Edit
+<img src="cat.jpg" alt="A cute cat" width="200" loading="lazy">
+2. Image Formats
+JPG / JPEG → Good for photos, smaller size.
+
+PNG → Supports transparency, sharper edges.
+
+GIF → Simple animations.
+
+SVG → Scalable vector graphics, perfect for logos.
+
+WebP → Modern format, smaller and faster.
+
+3. Background Images (CSS)
+css
+Copy
+Edit
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+cover → fills screen.
+
+contain → fits entirely inside.
+
+4. Audio in HTML
+html
+Copy
+Edit
+<audio controls>
+  <source src="music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+controls → Adds play, pause, volume.
+Other options:
+
+autoplay → starts automatically.
+
+loop → repeats.
+
+muted → starts silent.
+
+5. Video in HTML
+html
+Copy
+Edit
+<video width="500" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Options:
+
+poster="image.jpg" → Preview image before playing.
+
+autoplay, loop, muted work just like in audio.
+
+6. Embedding External Media
+YouTube Example:
+
+html
+Copy
+Edit
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
+frameborder="0" allowfullscreen></iframe>
+7. Accessibility & Optimization
+Always use alt text for images.
+
+Compress large images for speed (e.g., TinyPNG, Squoosh).
+
+Use responsive images with:

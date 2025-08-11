@@ -1,0 +1,12 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.css {
+  border-style: dotted;
+}
+
+#css-use {
+  padding: 2px;
+  color: red;
+}

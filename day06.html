@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day 6 - Colors & Typography</title>
+    <style>
+      html {
+        font-family: "Courier New", Courier, monospace;
+        background-color: bisque;
+      }
+      pre {
+        background: #1a1b1a;
+        color: #b6b673;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Day 6 – Colors & Typography</h1>
+
+    <h2>1.Color Formats</h2>
+    <ul>
+      <li>
+        <h4>Color keywords</h4>
+        <p>Predefined color names, such as red, blue, green</p>
+      </li>
+      <li>
+        <h4>Hexadecimal values</h4>
+        <p>Six-digit hexadecimal number preceded by a # symbol eg #FF0000</p>
+      </li>
+      <li>
+        <h4>RGB (red, green, blue)</h4>
+        <p>specifies integer values from 0 to 255 eg rgb(255,0, 0 )</p>
+      </li>
+      <li>
+        <h4>RGBA Values</h4>
+        <p>
+          rgba(red, green, blue, alpha) extends RGB by adding an alpha channel
+          for transparency.<br />
+          The alpha value is a number between 0 (fully transparent) and 1 (fully
+          opaque).
+        </p>
+      </li>
+      <li>
+        <h4>HSL Values: hsl(hue, saturation, lightness)</h4>
+        <p>Defines a color using the HSL color model.</p>
+      </li>
+    </ul>
+    <pre><code>/* Example */
+h1 {
+  color: #3498db; /* Hex */
+}
+
+p {
+  color: rgb(255, 99, 71); /* RGB */
+}
+
+button {
+  background-color: rgba(46, 204, 113, 0.7); /* RGBA */
+}
+</code></pre>
+    <h2>2. CSS Units</h2>
+    <p>Length is a number followed by a length unit eg 10px, 2em</p>
+
+    <h4>a. Absolute Lengths</h4>
+    <p>
+      The absolute length units are fixed and a length expressed in any of these
+      will appear as exactly that size. examples are px, mm, cm.
+    </p>
+    <h4>b. Relative Lengths</h4>
+    <p>
+      Relative length units specify a length relative to another length
+      property. examples are rem, em, vh, vw.
+    </p>
+
+    <h2>3. Font stack</h2>
+    <p>
+      A font stack is an ordered list of fonts that contains a primary font and
+      an optional fallback font or fonts.<br />
+      In this example, "Open Sans Regular" is the primary font and "Arial
+      Unicode MS Regular" is the fallback font: <br />
+      ["Open Sans Regular", "Arial Unicode MS Regular"]
+    </p>
+
+    <h2>Practice Quiz</h2>
+    <ol>
+      <li>
+        What’s the difference between <code>em</code> and <code>rem</code>?
+      </li>
+      <li>Which color format supports transparency?</li>
+      <li>Why should you use a font stack instead of a single font?</li>
+    </ol>
+    <strong
+      >reference - https://www.w3schools.com/css/css_colors.asp <br />
+      https://www.w3schools.com/css/css_units.asp</strong
+    >
+  </body>
+</html>

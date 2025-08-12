@@ -4,12 +4,7 @@ CSS = Cascading Style Sheets.
 It controls the look and layout of HTML elements — colors, fonts, spacing, positioning, animations, and more.
 
 HTML is the structure, CSS is the style.
-
 Example:
-
-html
-Copy
-Edit
 <!-- HTML -->
 <h1>Hello World</h1>
 
@@ -22,16 +17,12 @@ h1 {
 There are 3 ways:
 
 1. Inline CSS (in the HTML element)
-html
-Copy
-Edit
+
 <p style="color: red;">This text is red.</p>
 ⚠️ Not recommended for big projects — hard to maintain.
 
 2. Internal CSS (inside <style> in the <head>)
-html
-Copy
-Edit
+
 <head>
   <style>
     p {
@@ -53,9 +44,6 @@ p {
 3. CSS Syntax
 A CSS rule has:
 
-css
-Copy
-Edit
 selector {
   property: value;
 }
@@ -72,9 +60,7 @@ h1 {
 Selectors choose which HTML elements to style.
 
 Basic Selectors
-css
-Copy
-Edit
+
 /* Element selector */
 p { color: gray; }
 

@@ -1,9 +1,6 @@
 1. Images in HTML
 The main tag for images is:
 
-html
-Copy
-Edit
 <img src="path-to-image" alt="description" width="300" height="200">
 Attributes you should know:
 
@@ -16,10 +13,6 @@ width & height – Size of the image (in pixels or percentage).
 loading="lazy" – Delays image loading until needed (speeds up page).
 
 Example:
-
-html
-Copy
-Edit
 <img src="cat.jpg" alt="A cute cat" width="200" loading="lazy">
 2. Image Formats
 JPG / JPEG → Good for photos, smaller size.
@@ -33,9 +26,7 @@ SVG → Scalable vector graphics, perfect for logos.
 WebP → Modern format, smaller and faster.
 
 3. Background Images (CSS)
-css
-Copy
-Edit
+
 body {
   background-image: url('background.jpg');
   background-size: cover;
@@ -46,9 +37,7 @@ cover → fills screen.
 contain → fits entirely inside.
 
 4. Audio in HTML
-html
-Copy
-Edit
+
 <audio controls>
   <source src="music.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
@@ -63,9 +52,7 @@ loop → repeats.
 muted → starts silent.
 
 5. Video in HTML
-html
-Copy
-Edit
+
 <video width="500" controls>
   <source src="video.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -78,9 +65,6 @@ autoplay, loop, muted work just like in audio.
 
 6. Embedding External Media
 YouTube Example:
-
-html
-Copy
 Edit
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
 frameborder="0" allowfullscreen></iframe>

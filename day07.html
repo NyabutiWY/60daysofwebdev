@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 7</title>
+
+    <style>
+        html{
+            font-family: 'Courier New', Courier, monospace;
+        background-color: bisque;
+        }
+        body{
+            max-width: 800px;
+            margin:0 auto;
+            
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Display Types, Box Model & Positioning</h1>
+    <h3>1. Display Types</h3>
+    <p>
+      The <em>display</em> property controls how an element is rendered in the
+      document flow.
+    </p>
+    <h4>a. Common display values</h4>
+    <ol>
+      <li>
+        <strong>block </strong>– Takes up full width, starts on a new line (div,
+        p, h1 by default).
+      </li>
+      <li>
+        <strong>inline</strong>– Fits in with text, only takes up as much width
+        as its content (span, a by default).
+      </li>
+      <li>
+        <strong>inline-block</strong>– Like inline, but allows setting width and
+        height.
+      </li>
+      <li>
+        <strong>flex </strong>– Turns the element into a flex container for
+        flexible layouts.
+      </li>
+      <li><strong>grid </strong> – Creates a grid layout container.</li>
+    </ol>
+
+    example
+    <p>.block-example { display: block; background: lightblue; }</p>
+    <p>.inline-example { display: inline; background: pink; }</p>
+    <p>
+      .inline-block-example { display: inline-block; width: 100px; height: 50px;
+      background: lightgreen; }
+    </p>
+
+    <h3>2. The Box Model</h3>
+    <p>Every HTML element is treated as a box, made up of 4 layers:</p>
+    <ol>
+      <li>
+        <strong>Content – The actual text or image inside. </strong>
+      </li>
+      <li>
+        <strong> Padding – Space between the content and the border.</strong>
+      </li>
+      <li>
+        <strong>Border – The line around the padding. </strong>
+      </li>
+      <li>
+        <strong>Margin – Space outside the border (between elements). </strong>
+      </li>
+    </ol>
+
+    <h3>3. box-sizing</h3>
+    <p>
+        <p>   By default, element width = content width + padding + border. You can
+      change this behavior:</p>
+   
+        <ul>
+      <li>
+        <strong>content-box (default) </strong>
+       – Width is for content only.
+       </li>
+         <li>
+        <strong> border-box </strong>
+         – Width includes padding and border.
+      </li>
+      </ul>
+    </p>
+<h3>4. Positioning</h3>
+<p>The <em>position</em> property determines how an element is placed.</p>
+
+
+    <ol>
+      <li>
+        <strong>static –  </strong>
+        Default flow (no positioning).
+      </li>
+      <li>
+        <strong> relative – </strong>
+        Positioned relative to itself.
+
+
+      </li>
+      <li>
+        <strong>absolute –  </strong>
+        Positioned relative to nearest positioned ancestor
+      </li>
+      <li>
+        <strong> fixed – </strong>
+        Stays in place relative to the viewport.
+      </li>
+         <li>
+        <strong> sticky – </strong>
+        Switches between relative and fixed based on scroll.
+      </li>
+    </ol>
+<h3>Practice Quiz</h3>
+<p>Which display value allows an element to set width & height but still flow inline</p>
+<p>In the box model, which property adds space outside the border?</p>
+<p>What does box-sizing: border-box do?</p>
+<p>What’s the difference between absolute and fixed positioning?</p>
+
+  </body>
+</html>
